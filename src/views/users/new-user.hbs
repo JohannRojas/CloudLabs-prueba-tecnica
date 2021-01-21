@@ -1,0 +1,30 @@
+<div class="col-md4 mx-auto">
+    <div class="card text-center">
+        <div class="card-header">
+            <h3>Nuevo Usuario</h3>
+        </div>
+        <div class="card-body">
+            <form action="/users/new-user" method="POST">
+                    <label>Nombre de usuario</label>
+                <div class="form-group">
+                    <input type="text" name="usuario" class="form-control" placeholder="Nombre de usuario" autofocus value="{{usuario}}">
+                </div>
+                    <label>Nombre</label>
+                <div class="form-group">
+                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" value="{{nombre}}">
+                </div>
+                    <label>Apellido</label>
+                <div class="form-group">
+                    <input type="text" name="apellido" class="form-control" placeholder="Apellido" value="{{apellido}}">
+                </div>
+                    <label>Email</label>
+                <div class="form-group">
+                    <input type="text" name="email" class="form-control" placeholder="Email"  value="{{email}}">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
